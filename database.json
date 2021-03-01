@@ -1,0 +1,26 @@
+{
+    "products": [],
+    "locations": [
+        {
+            "id": 1,
+            "address": "123 Candy Way",
+            "size": 700,
+            "accessible": true
+        },
+        {
+            "id": 2,
+            "address": "100 Main St",
+            "size": 550,
+            "accessible": false
+        },
+        {
+            "id": 3,
+            "address":  "45 Sweets Ave",
+            "size": 600,
+            "accessible": true
+        }
+    ],
+    "employees": [],
+    "productTypes": [],
+    "customers": []
+}
