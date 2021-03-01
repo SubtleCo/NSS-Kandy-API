@@ -1,26 +1,141 @@
 {
-    "products": [],
-    "locations": [
-        {
-            "id": 1,
-            "address": "123 Candy Way",
-            "size": 700,
-            "accessible": true
-        },
-        {
-            "id": 2,
-            "address": "100 Main St",
-            "size": 550,
-            "accessible": false
-        },
-        {
-            "id": 3,
-            "address":  "45 Sweets Ave",
-            "size": 600,
-            "accessible": true
-        }
-    ],
-    "employees": [],
-    "productTypes": [],
-    "customers": []
+  "products": [
+    {
+      "id": 1,
+      "name": "Werther's Original",
+      "productTypeId": 1,
+      "price": 0.25
+    },
+    {
+      "id": 2,
+      "name": "Jolly Rancher",
+      "productTypeId": 1,
+      "price": 0.25
+    },
+    {
+      "id": 3,
+      "name": "Dubba Bubba",
+      "productTypeId": 2,
+      "price": 0.5
+    },
+    {
+      "id": 4,
+      "name": "Snowmint",
+      "productTypeId": 2,
+      "price": 0.5
+    },
+    {
+      "id": 5,
+      "name": "Take 5",
+      "productTypeId": 3,
+      "price": 1.25
+    },
+    {
+      "id": 6,
+      "name": "M&Ms",
+      "productTypeId": 3,
+      "price": 1
+    },
+    {
+      "id": 7,
+      "name": "Coca Cola",
+      "productTypeId": 4,
+      "price": 1
+    },
+    {
+      "id": 8,
+      "name": "Mountain Dew",
+      "productTypeId": 4,
+      "price": 1.25
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "123 Candy Way",
+      "size": 700,
+      "accessible": true
+    },
+    {
+      "id": 2,
+      "address": "100 Main St",
+      "size": 550,
+      "accessible": false
+    },
+    {
+      "id": 3,
+      "address": "45 Sweets Ave",
+      "size": 600,
+      "accessible": true
+    }
+  ],
+  "employees": [
+    {
+      "name": "Kelly Kappur",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 12,
+      "id": 1
+    },
+    {
+      "name": "Tim Timothy",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 12,
+      "id": 2
+    },
+    {
+      "name": "Jandice Jumpers",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 16,
+      "id": 3
+    },
+    {
+      "name": "Coffee Kathy",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 12,
+      "id": 4
+    },
+    {
+      "name": "Sam the Tuna Can Man",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": false,
+      "hourlyRate": 18,
+      "id": 5
+    },
+    {
+      "name": "Jelly Bean Jenny",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 17,
+      "id": 6
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Gum"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Sodas"
+    }
+  ],
+  "customers": []
 }
