@@ -117,6 +117,14 @@
       "fullTime": true,
       "hourlyRate": 17,
       "id": 6
+    },
+    {
+      "name": "Bunky Bertrum",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": false,
+      "hourlyRate": 15,
+      "id": 7
     }
   ],
   "productTypes": [
